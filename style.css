@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Gothic+A1:wght@900&family=Heebo:wght@200;400&family=Tilt+Warp&display=swap");
+/* font-family: 'Gothic A1', sans-serif;
+font-family: 'Heebo', sans-serif;
+font-family: 'Tilt Warp', cursive; */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --text: "Heebo", sans-serif;
+  --black: #1e2425;
+  --gray: #343b3c;
+  --purple: #8c2ceb;
+  --white: #f7f7f7;
+}
+
+body {
+  font-size: 15px;
+  background: rgb(2, 17, 94);
+  background: radial-gradient(
+    circle,
+    rgba(2, 17, 94, 1) 0%,
+    rgba(95, 11, 117, 1) 0%,
+    rgba(45, 19, 24, 1) 100%
+  );
+}
+
+body p {
+  font-size: 1em;
+  font-family: "Heebo", sans-serif;
+  color: var(--white);
+}
+
+main {
+  height: 782px;
+  width: 375px;
+}
+
+.first-section {
+  margin: 50px auto;
+  padding: 20px;
+  text-align: center;
+  justify-content: center;
+}
+
+.first-section-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.image-mobile {
+  background-image: url(images/profile.jpg);
+  background-size: cover;
+  background-position: 50% 30%;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin: 20px auto;
+}
+
+.first-section-container h1 {
+  font-family: "Gothic A1", sans-serif;
+  font-weight: bold;
+  color: var(--purple);
+  font-size: 3em;
+}
+
+#hi {
+  font-size: 1em;
+  margin-bottom: 15px;
+}
+
+#description {
+  margin-bottom: 30px;
+}
+
+.btn-container {
+  width: 300px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: baseline;
+}
+
+.btn-container a {
+  font-family: "Heebo", sans-serif;
+  text-decoration: none;
+  color: var(--white);
+  background-color: var(--purple);
+  border-radius: 6%;
+  margin: auto 20px;
+  padding: 11px;
+}
+
+.btn-container #cv-download {
+  width: 90px;
+}
+
+.btn-container #email-contact {
+  width: 90px;
+}
+
+.about-me {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.about-me h2 {
+  margin-bottom: 10px;
+  font-family: "Gothic A1", sans-serif;
+  font-size: 2rem;
+  color: var(--purple);
+}
+
+.about-me .me-text {
+  margin: 20px;
+  color: var(--white);
+  font-size: 0.8rem;
+}
+
+.about-me a {
+  text-decoration: none;
+  color: var(--white);
+  font-weight: bold;
+}
